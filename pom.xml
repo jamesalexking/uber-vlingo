@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.expressivesoftware</groupId>
+  <artifactId>uber-vlingo</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>uber-vlingo</name>
+  <packaging>pom</packaging>
+
+  <distributionManagement>
+    <repository>
+      <id>bintray-vlingo-vlingo-platform-java</id>
+      <name>vlingo-vlingo-platform-java</name>
+      <url>https://api.bintray.com/maven/vlingo/vlingo-platform-java/vlingo-http/;publish=1</url>
+    </repository>
+  </distributionManagement>
+  
+  <modules>
+    <module>uber-registration</module>
+    <module>uber-ridedelivery</module>
+    <module>uber-chargecalculation</module>
+    <module>uber-gps</module>
+    <module>uber-paymentsettlement</module>
+  </modules>
+
+</project>
