@@ -1,9 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.expressivesoftware</groupId>
-  <artifactId>uber-chargecalculation</artifactId>
+  <artifactId>uber-ridedelivery-domain</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>uber-chargecalculation</name>
+  <name>uber-registration-domain</name>
+  <packaging>jar</packaging>
 
   <licenses>
     <license>
@@ -11,7 +12,6 @@
       <url>https://mozilla.org/MPL/2.0/</url>
     </license>
   </licenses>
-
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
